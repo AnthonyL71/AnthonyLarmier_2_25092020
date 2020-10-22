@@ -331,7 +331,7 @@ body{
     }
     .hostingMainCardDescPrice
     {
-        font-weight:bols
+        font-weight:bold
     }
     .hostingMainCardGrade
     {
@@ -353,7 +353,7 @@ body{
     {
         display:grid;
         row-gap:2rem;
-        align-items:start
+        align-items:start;
         grid-area: hostingfavorite
     }
     .hostingFavoriteTitle
@@ -574,7 +574,7 @@ body{
             {
                 margin:0;
                 width:100%;
-                padding:2rem 0
+                padding:2rem 0;
                 display:none;
             }
             .footerColumnwrapperColumnTitle
@@ -582,3 +582,4 @@ body{
                 margin:0;
             }
         }
+}
