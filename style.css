@@ -2,8 +2,12 @@
 body{
     font-family:"Raleway","Sans serif";      
     margin:3%}
-    @media screen and (max-width: 1800px)
+    @media screen and (min-width: 1900px)
     {
+        body{
+        margin:10%;
+        }
+    }
     a
     {
         color:inherit;
@@ -61,7 +65,6 @@ body{
         font-family:"Raleway","Sans serif";
         font-size:1rem;
         cursor:pointer
-    }
     }
     @media screen and (min-width: 600px)
     {
@@ -142,8 +145,6 @@ body{
             margin:12px
         }
     }
-    @media screen and (max-width: 1800px)
-    {
     .main
     {
         max-width:1440px;
@@ -389,9 +390,6 @@ body{
     {
         height:8.75rem
     }
-    }
-    @media screen and (max-width: 1800px)
-        {
             .hosting
             {
                 grid-template-columns:1fr;
@@ -406,7 +404,6 @@ body{
             {
                 grid-column:1/-1
             }
-        }
         @media(max-width: 600px)
         {
             .hostingMain
@@ -443,8 +440,6 @@ body{
                 grid-template-columns:1fr
             }
         }
-        @media screen and (max-width: 1800px)
-        {
             .activity {
                 display: grid;
                 column-gap: 2rem;
@@ -530,8 +525,6 @@ body{
                   grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
                 }
               }
-        @media screen and (max-width: 1800px)
-        {
         .footer
         {
             margin:2rem 0 0 0;
@@ -561,7 +554,6 @@ body{
         {
             margin:0;
         }
-        }
         @media screen and (max-width: 600px)
         {
             .footerColumnwrapper
@@ -582,4 +574,3 @@ body{
                 margin:0;
             }
         }
-}
