@@ -2,7 +2,7 @@
 body{
     font-family:"Raleway","Sans serif";      
     margin:3%}
-    @media screen and (max-width: 1500px)
+    @media screen and (max-width: 1800px)
     {
     a
     {
@@ -142,7 +142,7 @@ body{
             margin:12px
         }
     }
-    @media screen and (max-width: 1500px)
+    @media screen and (max-width: 1800px)
     {
     .main
     {
@@ -390,7 +390,7 @@ body{
         height:8.75rem
     }
     }
-    @media screen and (max-width: 1500px)
+    @media screen and (max-width: 1800px)
         {
             .hosting
             {
@@ -443,7 +443,7 @@ body{
                 grid-template-columns:1fr
             }
         }
-        @media screen and (max-width: 1500px)
+        @media screen and (max-width: 1800px)
         {
             .activity {
                 display: grid;
@@ -530,7 +530,7 @@ body{
                   grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
                 }
               }
-        @media screen and (max-width: 1500px)
+        @media screen and (max-width: 1800px)
         {
         .footer
         {
