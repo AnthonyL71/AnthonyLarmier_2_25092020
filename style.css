@@ -284,7 +284,7 @@ body{
     .hostingMain
     {
         display:grid;
-        grid-area: hostingmain;
+        grid-area:hostingmain;
         column-gap:2rem;
         row-gap:2rem
     }
@@ -354,8 +354,7 @@ body{
     {
         display:grid;
         row-gap:2rem;
-        align-items:start;
-        grid-area: hostingfavorite
+        align-items:start
     }
     .hostingFavoriteTitle
     {
@@ -370,11 +369,10 @@ body{
     }
     .hostingFavoriteWrapcontentImg
     {
-        height:7rem;
-        object-fit:cover;
-        max-width:100%;
-        width:7rem;
-        max-height:100%;
+        width:33%;
+        min-height:8rem;
+        max-height:8rem;
+        height:auto;
         border-radius:1rem 0 0 1rem
     }
     .hostingFavoriteWrapcontentContent
@@ -390,20 +388,23 @@ body{
     {
         height:8.75rem
     }
-            .hosting
-            {
-                grid-template-columns:1fr;
-                row-gap:2rem
-            }
-            .hostingFavorite
-            {
-                grid-template-columns:repeat(3, 1fr);
-                column-gap:2rem
-            }
-            .hostingFavoriteTitle
-            {
-                grid-column:1/-1
-            }
+    @media(max-width: 1440px)
+    {
+        .hosting
+        {
+            grid-template-columns:1fr;
+            row-gap:2rem
+        }
+        .hostingFavorite
+        {
+            grid-template-columns:repeat(3, 1fr);
+            column-gap:2rem
+        }
+        .hostingFavoriteTitle
+        {
+            grid-column:1/-1
+        }
+    }
         @media(max-width: 600px)
         {
             .hostingMain
