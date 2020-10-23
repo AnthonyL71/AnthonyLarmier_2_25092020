@@ -1,11 +1,11 @@
 @import"https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap";
 body{
     font-family:"Raleway","Sans serif";      
-    margin:3%}
+    margin:0}
     @media screen and (min-width: 1900px)
     {
         body{
-        margin:10%;
+        margin:3% 10%;
         }
     }
     a
@@ -18,11 +18,13 @@ body{
         display:grid;
         align-items:center;
         max-width:1440px;
-        margin: 5px;
+        margin: auto;
     }
     .header .img
     {
-        grid-area:logo;
+        grid-area: logo;
+        padding: 0 2rem;
+        height: 2.813rem;
     }
     .header .nav
     {
@@ -145,13 +147,12 @@ body{
             margin:12px
         }
     }
-    .main
-    {
-        max-width:1440px;
-        margin:auto;
-        padding:0 2rem;
-        box-sizing:border-box
-    }
+    .main {
+        max-width: 1440px;
+        padding: 0 2rem;
+        box-sizing: border-box;
+        margin: auto;
+      }
     .searchHeaderTitle
     {
         margin-bottom:.5rem
@@ -388,7 +389,7 @@ body{
     {
         height:8.75rem
     }
-    @media(max-width: 1440px)
+    @media(max-width: 1200px)
     {
         .hosting
         {
@@ -409,6 +410,7 @@ body{
         {
             .hostingMain
             {
+                background-color:#ffffff;
                 grid-template-columns:1fr
             }
             .hosting
@@ -530,17 +532,16 @@ body{
         {
             margin:2rem 0 0 0;
             background-color:#f2f2f2;
-            width:100%
+            width:100%;
         }
-        .footerColumnwrapper
-        {
-            display:flex;
-            max-width:100%;
-            width:1440px;
-            margin:4%;
-            padding:0 2rem;
-            box-sizing:border-box
-        }
+        .footerColumnwrapper {
+            display: flex;
+            max-width: 100%;
+            width: 1440px;
+            margin: auto;
+            padding: 0 2rem;
+            box-sizing: border-box;
+          }
         .footerColumnwrapperColumn
         {
             width:30%;
