@@ -88,7 +88,7 @@ body{
         } 
     }
     @media screen and (max-width: 767px)
-    {
+    {   
         .header{
             grid-template-columns:auto 1fr auto;
             grid-template-areas:"logo . button" "navbar navbar navbar"
@@ -147,12 +147,42 @@ body{
             margin:12px
         }
     }
-    .main {
-        max-width: 1440px;
-        padding: 0 2rem;
-        box-sizing: border-box;
-        margin: auto;
-      }
+      @media screen and (max-width: 600px)
+      {
+          .main {
+            box-sizing: border-box;
+              margin: 0;
+          }
+          .searchHeaderTitle
+          {
+            padding: 0 2rem;
+          }
+          .searchHeaderSubtitle
+          {
+            padding: 0 2rem;
+          }
+          .searchForm
+          {
+            padding: 0 2rem;
+          }
+          .searchFilters
+          {
+          padding: 0 2rem;
+          }
+          .searchResult
+          {
+            padding: 0 2rem;
+          }
+        }
+        @media screen and (min-width: 601px)
+        {
+        .main {
+            max-width: 1440px;
+            padding: 0 2rem;
+            box-sizing: border-box;
+            margin: auto;
+          }
+        }
     .searchHeaderTitle
     {
         margin-bottom:.5rem
@@ -417,6 +447,14 @@ body{
             {
                 grid-template-areas: "hostingfavorite" "hostingmain"; 
             }
+            .hostingWrapper,.hostingFavorite,.hostingMain
+            {
+                padding:1rem
+            }
+            .hostingFavorite 
+            {
+                border-radius:0rem;
+            }
         }
         @media(min-width: 925px)
         {
@@ -491,16 +529,16 @@ body{
                   grid-row: 2/5;
                 }
                 .activityCard3 {
+                  grid-column: 2/3;
+                  grid-row: 6/7;
+                }
+                .activityCard4 {
                   grid-column: 3/4;
                   grid-row: 2/7;
                 }
-                .activityCard4 {
+                .activityCard5 {
                   grid-column: 4/5;
                   grid-row: 2/4;
-                }
-                .activityCard5 {
-                  grid-column: 2/3;
-                  grid-row: 6/7;
                 }
                 .activityCard6 {
                   grid-column: 4/5;
@@ -523,6 +561,8 @@ body{
               }
               @media (max-width: 650px) {
                 .activity {
+                    padding:1rem;
+                    grid-template-areas: "hostingfavorite" "hostingmain"; 
                   row-gap: 2rem;
                   grid-template-columns: 1fr;
                   grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
