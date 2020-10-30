@@ -152,6 +152,35 @@ body{
           .main {
             box-sizing: border-box;
               margin: 0;
+              padding: 0 0;
+          }
+          .searchHeaderTitle
+          {
+            padding: 0 0rem;
+          }
+          .searchHeaderSubtitle
+          {
+            padding: 0 0rem;
+          }
+          .searchForm
+          {
+            padding: 0 0rem;
+          }
+          .searchFilters
+          {
+          padding: 0 0rem;
+          }
+          .searchResult
+          {
+            padding: 0 0rem;
+          }
+        }
+        @media screen and (min-width: 700px)
+        {
+        .main {
+            padding: 0 0rem;
+            box-sizing: border-box;
+            margin: auto;
           }
           .searchHeaderTitle
           {
@@ -174,7 +203,7 @@ body{
             padding: 0 2rem;
           }
         }
-        @media screen and (min-width: 601px)
+        @media screen and (min-width: 1100px)
         {
         .main {
             max-width: 1440px;
