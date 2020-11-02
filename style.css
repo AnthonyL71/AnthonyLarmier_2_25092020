@@ -233,6 +233,10 @@ body{
         border-radius:1rem 0 0 1rem;
         text-align:center
     }
+    .searchFiltersFilter:hover
+    {
+        transform:scale(1.05)
+    }
     .searchFormWrapiconIcon
     {
         margin-left:.1rem
