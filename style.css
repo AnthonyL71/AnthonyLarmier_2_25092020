@@ -485,7 +485,7 @@ body{
                 border-radius:0rem;
             }
         }
-        @media(min-width: 925px)
+        @media(min-width: 725px)
         {
             .hostingMain
             {
