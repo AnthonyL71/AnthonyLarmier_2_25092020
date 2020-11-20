@@ -471,7 +471,7 @@ body{
     }
         @media(max-width: 600px)
         {
-            .hostingMain
+            .hostingMain 
             {
                 background-color:#ffffff;
                 grid-template-columns:1fr
